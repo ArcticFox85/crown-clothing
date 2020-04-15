@@ -1,19 +1,18 @@
 import React from 'react';
 import HomePage from './pages/homepage/homepage.component';
+import ShopPage from './pages/shop/shop.component.jsx';
+
+
 import './App.css';
+
+
+
+
 import {
   Switch,
   Route
 } from 'react-router-dom';
 
-
-
-const HatsPage = () => ( <
-  div >
-  <
-  h1 > HATS PAGE < /h1> < /
-  div >
-)
 
 
 
@@ -31,9 +30,9 @@ function App() {
       HomePage
     }
     / >   <
-    Route path = '/hats'
+    Route path = '/shop'
     component = {
-      HatsPage
+      ShopPage
     }
     />  < /
     Switch >
